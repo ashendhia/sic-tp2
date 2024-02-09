@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Paymentprocess:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Paymentprocess_jar</output-path>
+    <root id="archive" name="Paymentprocess.jar">
+      <element id="module-output" name="Paymentprocess" />
+    </root>
+  </artifact>
+</component>

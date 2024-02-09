@@ -1,0 +1,52 @@
+<form class="form-horizontal"
+      role="form">
+
+  <p>Veuillez Valider ou pas l'ordre de paiement suivant</p>
+
+  <div class="form-group">
+    <label class="control-label col-md-2">Fournisseur</label>
+    <div class="col-md-10">
+      <input cam-variable-name="fournisseur"
+             type="text"
+             name="fournisseur"
+             readonly="true"
+             class="form-control" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-md-2">Date</label>
+    <div class="col-md-10">
+      <input cam-variable-name="date"
+             type="text"
+             name="date"
+             readonly="true"
+             class="form-control" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-md-2">Virement Numéro</label>
+    <div class="col-md-10">
+      <input cam-variable-name="virementId"
+             type="text"
+             name="virementId"
+             readonly="true"
+             class="form-control" />
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-md-10 col-md-offset-2">
+      <div class="checkbox">
+        <label>
+          <input cam-variable-name="virementApproved"
+                 cam-variable-type="Boolean"
+                 type="checkbox"
+                 name="virementApproved"
+                 class="form-control" />
+          Est ce que vous validez ?
+        </label>
+      </div>
+    </div>
+  </div>
+  </div>
+</form>
+
